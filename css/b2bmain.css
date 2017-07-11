@@ -1,0 +1,105 @@
+﻿body {
+  margin-top: 0;
+  font-size: 12px;
+  font-family: "Microsoft Sans serif", "MS Serif", Arial, "微软雅黑", "Microsoft YaHei", sans-serif;
+}
+label {
+  font-weight: normal;
+}
+.btn {
+  height: auto;
+}
+.form-control,
+.form-group-sm .form-control,
+.form-control-static,
+.form-group-sm .form-control,
+.form-control-static,
+.form-group-sm .form-control-static {
+  border-radius: 0;
+}
+.form-group-sm .checkbox,
+.form-group-sm .checkbox-inline,
+.form-group-sm .radio,
+.form-group-sm .radio-inline {
+  padding-top: 0;
+  line-height: 1.42857143;
+}
+.input-lg,
+.input-sm {
+  border-radius: 0;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #b60005;
+  border-color: #b60005;
+}
+.btn-primary:hover {
+  background-color: #9d0004;
+  border-color: #9d0004;
+}
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background-color: #920004;
+  border-color: #920004;
+}
+select,
+input[type=button],
+input[type=submit] {
+  text-indent: 0;
+}
+input[type=checkbox],
+input[type=radio] {
+  margin: 0 0 0;
+}
+.panel-default > .panel-heading {
+  background-color: #fff;
+}
+ul.failureNotification {
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 0.5em;
+  color: red;
+  list-style: none;
+}
+ul.failureNotification:empty {
+  display: none;
+}
+ul.failureNotification > li {
+  background-color: #FDEEE9;
+  margin: 2px;
+  padding: 2px;
+}
+table.search {
+  border: none;
+  width: 100%;
+}
+table.search td {
+  border: none;
+  padding: .5em .5em;
+}
+.opt {
+  padding: .5em;
+}
+dd,
+dt {
+  font-weight: normal;
+}
+.cont > div {
+  border: 1px solid #ccc;
+}
+.cont h2 {
+  border-bottom: none;
+}
+.container,
+.container-fluid {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.container:empty,
+.container-fluid:empty {
+  display: none;
+}
+.datepicker {
+  min-width: 10.1em;
+}
