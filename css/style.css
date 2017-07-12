@@ -8197,7 +8197,7 @@ body.md-skin {
   #page-wrapper {
     position: inherit;
     margin: 0 0 0 220px;
-    min-height: 1200px;
+    min-height: 950px;
   }
   .navbar-static-side {
     z-index: 2001;
@@ -8412,4 +8412,13 @@ label.error{
 
 .form-group label{
   font-weight: 500;
+}
+/* 设置分类的样式*/
+.wrapper h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.list-top h3{
+    text-align: center;
 }
